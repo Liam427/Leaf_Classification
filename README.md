@@ -9,3 +9,21 @@
 ### 베이스라인 모델 성능
 * 아주 간단한 모델이지만 아래와 같이 높은 성능을 보여 주었습니다.  
 ![accuracy](https://github.com/Liam427/Leaf_Classification/blob/master/image/basemodel_accuracy.png)
+
+### 베이스라인 모델 test 성능
+![test](https://github.com/Liam427/Leaf_Classification/blob/master/image/baseline_test.png)
+
+### 베이스라인 평가
+* train, val, test set 간의 차이가 크지 않은 것으로 보아 overfitting의 위험성은 없다고 볼 수 있습니다.  
+  또한 test set의 성능이 93%로 높게 나오는걸 알 수 있습니다.
+
+---
+
+### ResNet50 모델 설계
+* pytorch에서 제공하는 model 패키지에 있는 resnet50을 이용하여 모델을 설계하였습니다.
+
+### ResNet50 모델 성능
+![train](https://github.com/Liam427/Leaf_Classification/blob/master/image/resnet501.png)
+
+### ResNet50 모델 test 성능
+![test](https://github.com/Liam427/Leaf_Classification/blob/master/image/resnet50_test.png)
